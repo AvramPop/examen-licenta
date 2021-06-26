@@ -1,0 +1,6 @@
+a.
+i) False, the line can start with any vowel
+ii) True, we gave the vowel appearing at least twice plus any non-digit character
+b.
+i) False, only the first child will go into de if.
+ii) False, the first fork() returns a numeric value both in the parent and the child, but only in the child that value would be 0.

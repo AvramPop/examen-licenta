@@ -1,0 +1,13 @@
+1.
+first select yields 3 results, since all with fk1 have a distinct FK2 (1, 2, 3)
+the second yields 2 results, the last 2 columns
+
+2. 
+a - the second inner join makes sure the person is an owner, but the car he own could be his or not
+b - does not return ALL, since the person could own a car, but the car no be part of the accident
+c - TRUE
+d - TRUE
+
+interviu 1
+2NF is 1NF + all non-prime attributes are completely functionally dependent on all the keys.
+2. it is, since 1, 1 and 1, 2 map to the respective similar c4 value

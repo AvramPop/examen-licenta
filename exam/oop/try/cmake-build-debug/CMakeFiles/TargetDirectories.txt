@@ -1,0 +1,3 @@
+/home/dani/Desktop/exam/oop/try/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dani/Desktop/exam/oop/try/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dani/Desktop/exam/oop/try/cmake-build-debug/CMakeFiles/try.dir

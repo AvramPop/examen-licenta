@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dani/Desktop/exam/solutions/2019/algo/main.cpp
+iostream
+/home/dani/Desktop/exam/solutions/2019/algo/iostream
+string
+/home/dani/Desktop/exam/solutions/2019/algo/string
+

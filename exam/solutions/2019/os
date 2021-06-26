@@ -1,0 +1,7 @@
+1.
+d: wait() blocks the caller until a child process' state is changed either by termination or a signal.
+2.
+a: print error if real type is not text and remove the first occurence of the given word at beginning of a line
+b: get type of file and return true if no match
+c: nothing will be changed since the regex ^$ can't be matched OR does it search for $2 literally??
+d: infinite loop

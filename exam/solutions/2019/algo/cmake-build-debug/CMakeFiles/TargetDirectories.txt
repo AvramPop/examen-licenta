@@ -1,0 +1,3 @@
+/home/dani/Desktop/exam/solutions/2019/algo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dani/Desktop/exam/solutions/2019/algo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dani/Desktop/exam/solutions/2019/algo/cmake-build-debug/CMakeFiles/algo.dir

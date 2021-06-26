@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/try.dir/Person.cpp.o CMakeFiles/try.dir/main.cpp.o -o try 

@@ -1,0 +1,15 @@
+1. PK: PID, ProcId, (PacientId, ProcId) that is FK
+2. 
+DOB -> Age
+DocFirst, DocLast -> DocSpec
+DocFirst, DocLast -> DocSen
+3.
+A) creating a separate table to store the doctors
+C) eliminate Age
+4.
+select lastName, firstName from PacientsMedicalRecords inner join Pacients on pacientId = Pid where doctorSpeciality = 'radiology' intersect ...
+5.
+select doctorSpeciality, count(*), sum(price) from from PacientsMedicalRecords re inner join Procedures pr on re.procId = pr.procId
+group by re.doctorSpeciality 
+having sum(price) = 
+(select max(sum(price)) from PacientsMedicalRecords re inner join Procedures pr on re.procId = pr.procId group by re.doctorSpeciality)

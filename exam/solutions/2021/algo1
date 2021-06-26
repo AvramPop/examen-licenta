@@ -1,0 +1,17 @@
+# P1.
+# compute the product between all the numbers with identical last 2 digits and how many they are, 0 otherwise
+
+def c(a, n, i, y, j):
+    print(a, n, i, y, j)
+    if n < i:
+        if j == n:
+            return 0
+        else:
+            return y * (n - j)
+    else:
+        if a[i] >= 10 and (a[i] % 100) % 11 == 0:
+            return c(a, n, i + 1, y * a[i], j)
+        else:
+            return c(a, n, i + 1, y, j + 1)
+
+print(c([-1, 1, 22, 33, 444], 4, 1, 1, 0))
